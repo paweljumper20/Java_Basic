@@ -1,5 +1,6 @@
 package tables;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Tables {
@@ -15,5 +16,9 @@ public class Tables {
         for (String name :names) {
             System.out.println(name);
         }
+
+        Arrays.stream(names).forEach(System.out::println);
+
     }
+
 }
