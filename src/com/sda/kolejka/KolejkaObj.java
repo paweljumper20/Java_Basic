@@ -33,7 +33,7 @@ public class KolejkaObj {
         String opis = null;
 
         if(pierwszy != null){
-            
+
         } else return "Kolejka jest pusta";
        return null;
 
